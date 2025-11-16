@@ -28,7 +28,7 @@ const Courses = () => {
                                 "Software Testing",
                                 "DevOps & CI/CD",
                                 "Blockchain & Web3",
-                                "Programming Languages (C, C++, Java, Python)",
+                                "Programming Languages(C, C++, Java, Python)",
                                 "DSA"
                             ].map((title, index) => (
                                 <motion.div
