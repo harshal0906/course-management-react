@@ -9,6 +9,7 @@ import EditeCourse from './pages/EditeCourse'
 import Login from './pages/Login'
 import ProtectedRoute from "./components/ProtectedRoute";
 import Contact from './pages/Contact'
+import { ToastContainer } from 'react-toastify'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Header islogedIn={islogedIn} setIslogedIn={setIslogedIn} />
+            <ToastContainer/>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/courses' element={<Courses />} />
